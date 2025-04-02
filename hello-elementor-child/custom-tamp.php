@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
         e.preventDefault();
         
         var formData = {
-            action: 'handle_ajax_form',
+            action: 'ajax_form_server',
             username: $('#username').val(),
             email: $('#email').val(),
         };
